@@ -1,0 +1,1341 @@
+
+
+@media(max-width: 1680px) {
+    
+    
+    body{
+        font-family:Arial, Helvetica, sans-serif;
+    background-color:white;
+    }
+    
+    .nav{
+    display:flex;   
+    border-bottom:solid rgb(165, 156, 156);
+    border-width:.8px;
+    height:50px;
+    width:100%;
+    background-color:rgb(176, 176, 209);
+    }
+    
+    .left{
+    display:flex;
+    /* align-items:center; */
+    height:60px;
+    /* width:200px; */
+    padding-bottom:-400px;
+    }
+    
+    .navLogo{
+    display:flex;
+    align-items:center;
+    height:50px;
+    }
+    
+    .perLogo{
+    /* padding-top:20px; */
+    height:20px;
+    width:223px;
+    margin-left:20px;
+    justify-content:left;
+    align-items:start;
+    padding-bottom:6px;
+    }
+
+    .menuBreakout{
+        display:flex;
+        justify-content:center;
+
+    }
+    
+    .menuItems{
+        display:flex;
+        justify-content:space-around;
+        font-size:9px;
+        font-weight:bolder;
+        color:rgb(110, 15, 52);
+        box-shadow:3px 6px 8px;
+        padding:9px;
+        
+    }
+
+    .menuItems:hover{
+        display:flex;
+        justify-content:space-around;
+        font-size:9px;
+        font-weight:bolder;
+        background-color:rgb(180, 215, 238);
+        color:rgb(235, 64, 144);
+        box-shadow:3px 6px 8px;
+        padding:9px;
+        
+    }
+
+    /* .right{
+    display:flex;
+    justify-content:flex-end;
+    }
+    
+    .menu{
+     height:27px;
+    width:50px;
+    justify-content:flex-end;
+    }
+    
+    .hamMenu{
+    height:27px;
+    width:50px;
+    justify-content:flex-end;
+    } */
+    
+    
+    .dualPhoto{
+    display:flex;
+    justify-content:center;
+    width:100%;
+    z-index: 1;
+    
+    }
+    
+    .left{
+    height: 485px;
+    width:100%;
+    /* width:399px; */
+    
+    
+    }
+    
+    .right{
+        height: 485px;
+        width:100%;
+        /* width:399px; */
+        
+    }
+    
+    .dualCards{
+        
+    display:flex;
+    justify-content:space-evenly;
+    z-index: 2;
+    margin-top:-100px;
+    }
+    
+    .cardLeft{
+        display:block;
+        justify-content:center;
+        /* border:solid red; */
+    height:343px;
+    width:440px;
+    background-color:white;
+    /* z-index: 2; */
+    
+    }
+    
+    .cardRight{
+        display:block;
+        justify-content:center;
+        /* border:solid red; */
+    height:343px;
+    width:440px;
+    /* z-index: 2; */
+    background-color:white;
+    }
+    .capIcon{
+        display:flex;
+        justify-content:start;
+        align-items:center;
+        margin:25px;
+    }
+    
+    .prospectTxt{
+        display:flex;
+        justify-content:center;
+    font-size:1.6vh;
+    font-weight:bolder;
+    letter-spacing: .1em;
+    /* margin:30px; */
+    margin-top:-40px;
+    margin-right:150px;
+    margin-bottom:20px;
+    }
+    
+    .growTxt{
+        font-size:3.8vh;
+        display:flex;
+        justify-content:center;
+        /* margin-right:-10px; */
+        padding-left:6px;
+        padding:8px;
+        
+    }
+    
+    .prospectBodyTxt{
+        font-size:2.5vh;
+        margin:3px;
+        padding:8px;
+        margin-bottom:20px;
+    }
+    
+    .learner{
+       font-weight:bolder;
+        background-color:rgb(248, 188, 58);
+        margin-left:30px;
+        width:380px;
+        height:46px;
+        border-width:0px;
+        cursor:pointer;
+    }
+    
+    .buildingIcon{
+        display:flex;
+        justify-content:start;
+        align-items:center;
+        margin:25px;
+    
+    }
+    
+    .enterpriseTxt{
+        display:flex;
+        justify-content:center;
+    font-size:1.6vh;
+    font-weight:bolder;
+    letter-spacing: .1em;
+    /* margin:30px; */
+    margin-top:-40px;
+    margin-right:110px;
+    margin-bottom:20px;
+    }
+    
+    .pipelineTxt{
+        font-size:3.8vh;
+        display:flex;
+        justify-content:center;
+        /* margin-right:-10px; */
+        /* padding-left:9px; */
+        padding:7px;
+    }
+    
+    .enterpriseBodyTxt{
+        font-size:2.5vh;
+        margin:3px;
+        padding:8px;
+        margin-bottom:20px;
+    }
+    
+    .started{
+        font-weight:bolder;
+        background-color:rgb(248, 188, 58);
+        margin-left:30px;
+        width:380px;
+        height:46px;
+        border-width:0px;
+        cursor:pointer;
+    }
+    
+    .unlockHeading{
+    display:flex;
+    justify-content:center;
+    }
+    
+    
+    .unlocking{
+        display:flex;
+        font-size:4vh;
+        justify-content:center;
+        text-align:center;
+    }
+
+    .videoimg{
+        display:flex;
+        justify-content:center;
+        width:100%;
+
+    }
+
+    .videoPlay{
+        display:flex;
+        justify-content:center;
+        width:100%;
+    }
+
+    .alumWork{
+        display:flex;
+        justify-content:flex-start;
+        height:130px;
+        font-size:8px;
+        align-items:center;
+        margin-left:22px;
+    }
+
+    .alumn{
+        font-size:8px;
+    }
+
+    .alumIcons{
+        display:flex;
+        height:400px;
+        justify-content:space-evenly;
+    }
+
+    .alumThreeImg{
+    justify-content:space-evenly;
+    height:60px;
+    }
+
+.support{
+    margin-top:-300px;
+display:flex;
+}
+
+.compGirl{
+height:60vh;
+width:60vh;
+}
+
+.donateBox{
+background-color:rgb(54, 101, 231);
+display:block;
+}
+
+.sup{
+color:white;
+display:block;
+justify-content:center;
+align-items:center;
+margin:28px;
+padding-top:30px;
+}
+
+.don{
+    color:white;
+    display:block;
+    justify-content:center;
+    margin:28px;
+    padding-top:3px;
+}
+
+.doner{
+background-color:rgb(248, 188, 58);
+font-weight:bolder;
+border:none;
+height:40px;
+display:block;
+justify-content:center;
+margin:28px;
+}
+
+
+.footOne{
+display:flex;
+/* margin-top:0px; */
+}
+
+.rights{
+font-size:12px;
+/* margin-bottom:5px; */
+height:10px;
+}
+
+.policies{
+    font-size:12px;
+    align-items:start;
+    margin-top:30px;
+    margin-left:20px;
+    /* padding-left:-40px; */
+    height:10px;
+}
+
+    .badges{
+        margin-top:6px;
+        padding-top:8px;
+display:flex;
+justify-content:flex-start;
+    }
+
+    .badgeIcon{
+        width:90px;
+        margin:9px;
+    }
+
+    .firstBadge{
+        height:7vh;
+        margin-top:30px;
+    }
+
+    .lower{
+        display:flex;
+        height:40px;
+        padding-top:10px;
+    }
+
+    .lowLogo{
+        margin-top:20px;
+        height:3.4vh;
+        padding:5px;
+        margin-left:6px;
+    }
+
+    .lowNav{
+        display:block;
+        height:270px;
+        align-items:start;
+        margin-bottom:20px;
+        padding-top:20px;
+    }
+
+    .linx{
+        display:block;
+        /* height:300px; */
+        align-items:start;
+        margin:24px;
+        color:black;
+        font-weight:bolder;
+        
+    }
+
+    .email{
+display:block;
+flex-wrap:nowrap;
+height:120px;
+border-bottom:none;
+    }
+
+    .emailTxt{
+        display:block;
+        color:black;
+        font-size:15px;
+        flex-wrap:nowrap;
+        margin-top:10px;
+        padding-top:10px;
+        
+    }
+
+    .emailUs{
+
+    }
+
+    .question{
+        display:block;
+        color:black;
+        font-size:15px;
+        flex-wrap:nowrap;
+        margin-top:10px;
+        padding-top:10px;
+    }
+
+    .ques{
+
+    }
+
+    }
+
+
+/* _____/desktop */
+
+
+@media(max-width: 1240px) {
+    
+    
+    body{
+        font-family:Arial, Helvetica, sans-serif;
+    background-color:white;
+    }
+    
+    .nav{
+    display:flex;   
+    border-bottom:solid rgb(165, 156, 156);
+    border-width:.8px;
+    height:50px;
+    width:100%;
+    background-color:rgb(228, 231, 236);
+    }
+    
+    .left{
+    display:flex;
+    /* align-items:center; */
+    height:60px;
+    padding-bottom:-400px;
+    }
+    
+    .navLogo{
+    display:flex;
+    align-items:center;
+    height:50px;
+    }
+    
+    .perLogo{
+    /* padding-top:20px; */
+    height:20px;
+    width:223px;
+    margin-left:20px;
+    justify-content:left;
+    align-items:start;
+    padding-bottom:6px;
+    }
+    
+    .menuBreakout{
+        display:flex;
+        justify-content:center;
+        margin-right:355px;
+        flex-wrap: nowrap;
+        word-wrap:nowrap ;
+        padding-right:-35px;
+    }
+    
+    .menuItems{
+        display:flex;
+        justify-content:space-around;
+        font-size:9px;
+        font-weight:bolder;
+        letter-spacing:.1em;
+        padding-right:12px;
+       flex-wrap: nowrap;
+       word-wrap:nowrap;
+       margin:0px;
+       margin-top:0px;
+       margin-right:0px;
+       position:relative;
+    
+    }
+
+    .menuItems:hover{
+        display:flex inline-block;
+        justify-content:space-around;
+        font-size:8px;
+        font-weight:bolder;
+        letter-spacing:.1em;
+        padding-right:12px;
+        color:blue;
+        cursor:pointer;
+    }
+
+    /* .right{
+    display:flex;
+    justify-content:flex-end;
+    }
+    
+    .menu{
+     height:27px;
+    width:50px;
+    justify-content:flex-end;
+    }
+    
+    .hamMenu{
+    height:27px;
+    width:50px;
+    justify-content:flex-end;
+    } */
+    
+    
+    .dualPhoto{
+    display:flex;
+    justify-content:center;
+    width:100%;
+    z-index: 1;
+  
+    
+    }
+    
+    .left{
+    height: 485px;
+    /* width:399px; */
+    
+    
+    }
+    
+    .right{
+        height: 485px;
+        /* width:399px; */
+        
+    }
+    
+    .dualCards{
+        
+    display:flex;
+    justify-content:space-between;
+    z-index: 2;
+    margin-top:-100px;
+    }
+    
+    .cardLeft{
+        display:block;
+        justify-content:center;
+        /* border:solid red; */
+    height:343px;
+    width:440px;
+    background-color:white;
+    /* z-index: 2; */
+    
+    }
+    
+    .cardRight{
+        display:block;
+        justify-content:center;
+        /* border:solid red; */
+    height:343px;
+    width:440px;
+    /* z-index: 2; */
+    background-color:white;
+    }
+    .capIcon{
+        display:flex;
+        justify-content:start;
+        align-items:center;
+        margin:25px;
+    }
+    
+    .prospectTxt{
+        display:flex;
+        justify-content:center;
+    font-size:1.6vh;
+    font-weight:bolder;
+    letter-spacing: .1em;
+    /* margin:30px; */
+    margin-top:-40px;
+    margin-right:150px;
+    margin-bottom:20px;
+    }
+    
+    .growTxt{
+        font-size:3.8vh;
+        display:flex;
+        justify-content:center;
+        /* margin-right:-10px; */
+        padding-left:6px;
+        padding:8px;
+        
+    }
+    
+    .prospectBodyTxt{
+        font-size:2.5vh;
+        margin:3px;
+        padding:8px;
+        margin-bottom:20px;
+    }
+    
+    .learner{
+       font-weight:bolder;
+        background-color:rgb(248, 188, 58);
+        margin-left:30px;
+        width:380px;
+        height:46px;
+        border-width:0px;
+        cursor:pointer;
+    }
+
+    .learner:hover{
+        font-weight:bolder;
+         background-color:rgb(236, 139, 29);
+         margin-left:30px;
+         width:380px;
+         height:46px;
+         border-width:0px;
+         cursor:pointer;
+     }
+    
+    .buildingIcon{
+        display:flex;
+        justify-content:start;
+        align-items:center;
+        margin:25px;
+    
+    }
+    
+    .enterpriseTxt{
+        display:flex;
+        justify-content:center;
+    font-size:1.6vh;
+    font-weight:bolder;
+    letter-spacing: .1em;
+    /* margin:30px; */
+    margin-top:-40px;
+    margin-right:110px;
+    margin-bottom:20px;
+    }
+    
+    .pipelineTxt{
+        font-size:3.8vh;
+        display:flex;
+        justify-content:center;
+        /* margin-right:-10px; */
+        /* padding-left:9px; */
+        padding:7px;
+    }
+    
+    .enterpriseBodyTxt{
+        font-size:2.5vh;
+        margin:3px;
+        padding:8px;
+        margin-bottom:20px;
+    }
+    
+    .started{
+        font-weight:bolder;
+        background-color:rgb(248, 188, 58);
+        margin-left:30px;
+        width:380px;
+        height:46px;
+        border-width:0px;
+        cursor:pointer;
+    }
+
+    .started:hover{
+        font-weight:bolder;
+        background-color:rgb(224, 99, 16);
+        margin-left:30px;
+        width:380px;
+        height:46px;
+        border-width:0px;
+        cursor:pointer;
+    }
+    
+    .unlockHeading{
+    display:flex;
+    justify-content:center;
+    }
+    
+    
+    .unlocking{
+        display:flex;
+        font-size:4vh;
+        justify-content:center;
+        text-align:center;
+    }
+
+    .videoimg{
+        display:flex;
+        justify-content:center;
+        width:100%;
+
+    }
+
+    .videoPlay{
+        display:flex;
+        justify-content:center;
+        width:100%;
+    }
+
+    .alumWork{
+        display:flex;
+        justify-content:flex-start;
+        height:130px;
+        font-size:8px;
+        align-items:center;
+        margin-left:22px;
+    }
+
+    .alumn{
+        font-size:8px;
+    }
+
+    .alumIcons{
+        display:flex;
+        height:400px;
+        justify-content:space-evenly;
+    }
+
+    .alumThreeImg{
+    justify-content:space-evenly;
+    height:60px;
+    }
+
+.support{
+    margin-top:-300px;
+display:flex;
+}
+
+.compGirl{
+height:60vh;
+width:60vh;
+}
+
+.donateBox{
+background-color:rgb(54, 101, 231);
+display:block;
+}
+
+.sup{
+color:white;
+display:block;
+justify-content:center;
+align-items:center;
+margin:28px;
+padding-top:30px;
+}
+
+.don{
+    color:white;
+    display:block;
+    justify-content:center;
+    margin:28px;
+    padding-top:3px;
+}
+
+.doner{
+background-color:rgb(248, 188, 58);
+font-weight:bolder;
+border:none;
+height:40px;
+display:block;
+justify-content:center;
+margin:28px;
+}
+
+
+.footOne{
+display:flex;
+/* margin-top:0px; */
+}
+
+.rights{
+font-size:12px;
+/* margin-bottom:5px; */
+height:10px;
+}
+
+.policies{
+    font-size:12px;
+    align-items:start;
+    margin-top:30px;
+    margin-left:20px;
+    /* padding-left:-40px; */
+    height:10px;
+}
+
+    .badges{
+        margin-top:6px;
+        padding-top:8px;
+display:flex;
+justify-content:flex-start;
+    }
+
+    .badgeIcon{
+        width:90px;
+        margin:9px;
+    }
+
+    .firstBadge{
+        height:7vh;
+        margin-top:30px;
+    }
+
+    .lower{
+        display:flex;
+        height:40px;
+        padding-top:10px;
+    }
+
+    .lowLogo{
+        margin-top:20px;
+        height:3.4vh;
+        padding:5px;
+        margin-left:6px;
+    }
+
+    .lowNav{
+        display:block;
+        height:270px;
+        align-items:start;
+        margin-bottom:20px;
+        padding-top:20px;
+    }
+
+    .linx{
+        display:block;
+        /* height:300px; */
+        align-items:start;
+        margin:24px;
+        color:black;
+        font-weight:bolder;
+        
+    }
+
+    .email{
+display:block;
+flex-wrap:nowrap;
+height:120px;
+border-bottom:none;
+    }
+
+    .emailTxt{
+        display:block;
+        color:black;
+        font-size:15px;
+        flex-wrap:nowrap;
+        margin-top:10px;
+        padding-top:10px;
+        
+    }
+
+    .emailUs{
+
+    }
+
+    .question{
+        display:block;
+        color:black;
+        font-size:15px;
+        flex-wrap:nowrap;
+        margin-top:10px;
+        padding-top:10px;
+    }
+
+    .ques{
+
+    }
+
+
+    }
+
+
+/* _____/mid(ipad) */
+
+
+@media(max-width: 860px) {
+    
+
+    body{
+        font-family:Arial, Helvetica, sans-serif;
+    background-color:white;
+    }
+
+    /* .backTwo{
+        background-color:blue;
+    } */
+    
+    .nav{
+    display:flex;   
+    border-bottom:solid rgb(165, 156, 156);
+    border-width:.8px;
+    background-color:white;
+    height:50px;
+    width:100%;
+    }
+    
+    .left{
+    display:flex;
+    /* align-items:center; */
+    height:60px;
+    padding-bottom:-400px;
+    }
+    
+    .navLogo{
+    display:flex;
+    align-items:center;
+    height:50px;
+    }
+    
+    .perLogo{
+    /* padding-top:20px; */
+    height:20px;
+    width:223px;
+    margin-left:20px;
+    justify-content:left;
+    align-items:start;
+    padding-bottom:6px;
+    }
+
+    .menuBreakout{
+        display:none;
+        justify-content:center;
+
+    }
+    
+    .menuItems{
+        display:flex;
+        justify-content:space-around;
+        font-size:9px;
+    }
+    
+    /* .right{
+    display:flex;
+    justify-content:flex-end;
+    }
+    
+    .menu{
+     height:27px;
+    width:50px;
+    justify-content:flex-end;
+    }
+    
+    .hamMenu{
+    height:27px;
+    width:50px;
+    justify-content:flex-end;
+    } */
+    
+    
+    .dualPhoto{
+    display:flex;
+    justify-content:center;
+    z-index: 1;
+    flex-wrap: wrap-reverse;
+    }
+    
+    .left{
+    height: 485px;
+    /* width:399px; */
+    
+    
+    }
+    
+    .right{
+        height: 485px;
+        /* width:399px; */
+        
+    }
+    
+    .dualCards{
+        
+    display:block;
+    justify-content:center;
+    z-index: 2;
+    margin-top:5px;
+    height:20vh;
+    margin-bottom:500px;
+    margin-left:100px;
+    }
+    
+    .cardLeft{
+        /* border-top:solid rgb(169, 190, 197);
+        border-width:.2px; */
+        display:block;
+        /* border:solid red; */
+    /* height:343px;
+    width:440px; */
+    background-color:white;
+    /* z-index: 2; */
+    
+    }
+    
+    .cardRight{
+        border-top:solid rgb(169, 190, 197);
+        border-width:.2px;
+        display:block;
+        /* border:solid red; */
+    /* height:343px;
+    width:440px; */
+    /* z-index: 2; */
+    background-color:white;
+    margin-top:-80px;
+    }
+    .capIcon{
+        display:flex;
+        justify-content:start;
+        align-items:center;
+        margin:25px;
+    }
+    
+    .prospectTxt{
+        display:flex;
+        justify-content:center;
+    font-size:1.6vh;
+    font-weight:bolder;
+    letter-spacing: .1em;
+    /* margin:30px; */
+    margin-top:-40px;
+    margin-right:150px;
+    margin-bottom:20px;
+    }
+    
+    .growTxt{
+        font-size:3.8vh;
+        display:flex;
+        justify-content:center;
+        /* margin-right:-10px; */
+        padding-left:6px;
+        padding:8px;
+        
+    }
+    
+    .prospectBodyTxt{
+        font-size:2.5vh;
+        margin:3px;
+        padding:8px;
+        margin-bottom:20px;
+    }
+    
+    .learner{
+       font-weight:bolder;
+        background-color:rgb(248, 188, 58);
+        margin-left:30px;
+        width:380px;
+        height:46px;
+        border-width:0px;
+        cursor:pointer;
+    }
+    
+    .buildingIcon{
+        display:flex;
+        justify-content:start;
+        align-items:center;
+        margin:25px;
+    
+    }
+    
+    .enterpriseTxt{
+        display:flex;
+        justify-content:center;
+    font-size:1.6vh;
+    font-weight:bolder;
+    letter-spacing: .1em;
+    /* margin:30px; */
+    margin-top:-40px;
+    margin-right:110px;
+    margin-bottom:20px;
+    }
+    
+    .pipelineTxt{
+        font-size:3.8vh;
+        display:flex;
+        justify-content:center;
+        /* margin-right:-10px; */
+        /* padding-left:9px; */
+        padding:7px;
+    }
+    
+    .enterpriseBodyTxt{
+        font-size:2.5vh;
+        margin:3px;
+        padding:8px;
+        margin-bottom:20px;
+    }
+    
+    .started{
+        font-weight:bolder;
+        background-color:rgb(248, 188, 58);
+        margin-left:30px;
+        width:380px;
+        height:46px;
+        border-width:0px;
+        cursor:pointer;
+    }
+    
+    .unlockHeading{
+    display:flex;
+    }
+    
+    
+    .unlocking{
+        display:flex;
+        font-size:4vh;
+        justify-content:center;
+        text-align:center;
+    }
+
+    .alumWork{
+        display:flex;
+        justify-content:flex-start;
+        height:130px;
+        font-size:8px;
+        align-items:center;
+        margin-left:22px;
+    }
+
+    .alumn{
+        font-size:8px;
+    }
+
+    .alumIcons{
+        display:flex;
+        height:400px;
+        justify-content:space-evenly;
+    }
+
+    .alumThreeImg{
+    justify-content:space-evenly;
+    height:60px;
+    }
+
+.support{
+    margin-top:-300px;
+display:flex;
+}
+
+.videoimg{
+    display:flex;
+    justify-content:center;
+    width:100%;
+
+}
+
+.videoPlay{
+    display:flex;
+    justify-content:center;
+    width:100%;
+}
+
+.compGirl{
+height:60vh;
+width:60vh;
+}
+
+.donateBox{
+background-color:rgb(54, 101, 231);
+display:block;
+}
+
+.sup{
+color:white;
+display:block;
+justify-content:center;
+align-items:center;
+margin:28px;
+padding-top:30px;
+}
+
+.don{
+    color:white;
+    display:block;
+    justify-content:center;
+    margin:28px;
+    padding-top:3px;
+}
+
+.doner{
+background-color:rgb(248, 188, 58);
+font-weight:bolder;
+border:none;
+height:40px;
+display:block;
+justify-content:center;
+margin:28px;
+}
+
+
+.footOne{
+display:flex;
+/* margin-top:0px; */
+}
+
+.rights{
+font-size:12px;
+/* margin-bottom:5px; */
+height:10px;
+}
+
+.policies{
+    font-size:12px;
+    align-items:start;
+    margin-top:30px;
+    margin-left:20px;
+    /* padding-left:-40px; */
+    height:10px;
+}
+
+    .badges{
+        margin-top:6px;
+        padding-top:8px;
+display:flex;
+justify-content:flex-start;
+    }
+
+    .badgeIcon{
+        width:90px;
+        margin:9px;
+    }
+
+    .firstBadge{
+        height:7vh;
+        margin-top:30px;
+    }
+
+    .lower{
+        display:flex;
+        height:40px;
+        padding-top:10px;
+    }
+
+    .lowLogo{
+        margin-top:20px;
+        height:3.4vh;
+        padding:5px;
+        margin-left:6px;
+    }
+
+    .lowNav{
+        display:block;
+        height:270px;
+        align-items:start;
+        margin-bottom:20px;
+        padding-top:20px;
+    }
+
+    .linx{
+        display:block;
+        /* height:300px; */
+        align-items:start;
+        margin:24px;
+        color:black;
+        font-weight:bolder;
+        
+    }
+
+    .email{
+display:block;
+flex-wrap:nowrap;
+height:120px;
+border-bottom:none;
+    }
+
+    .emailTxt{
+        display:block;
+        color:black;
+        font-size:15px;
+        flex-wrap:nowrap;
+        margin-top:10px;
+        padding-top:10px;
+        
+    }
+
+    .emailUs{
+
+    }
+
+    .question{
+        display:block;
+        color:black;
+        font-size:15px;
+        flex-wrap:nowrap;
+        margin-top:10px;
+        padding-top:10px;
+    }
+
+    .ques{
+
+    }
+
+    }
+
+/* _____/mobile(START with MOBILE ALWAYS) */
+
+
+/* 
+@keyframes slider {
+    0%{
+        /* initial command */
+        /* margin-left:0%; */
+        /* background-color: yellow(0px);
+    }
+
+    50%{
+        background-color: red
+    
+    }
+
+    60%{
+        /* transform: translateY(100px); */
+    /* }
+
+       70%{
+            background-color: red;
+        }
+    
+
+   100%{
+        background-color: blue;
+    }
+}
+
+.slid{
+    animation: slider 2s ;
+} */ 
