@@ -16,6 +16,10 @@
     width:100%;
     background-color:rgb(176, 176, 209);
     }
+
+    .navSwatch{
+        background-color:rgb(243, 237, 147);
+    }
     
     .left{
     display:flex;
@@ -63,9 +67,9 @@
         justify-content:space-around;
         font-size:9px;
         font-weight:bolder;
-        background-color:rgb(180, 215, 238);
-        color:rgb(235, 64, 144);
-        box-shadow:3px 6px 8px;
+        background-color:rgb(130, 107, 196);
+        color:rgb(170, 178, 196);
+        box-shadow:3px 3px 2px;
         padding:9px;
         
     }
@@ -176,14 +180,29 @@
     }
     
     .learner{
-       font-weight:bolder;
-        background-color:rgb(248, 188, 58);
-        margin-left:30px;
-        width:380px;
-        height:46px;
-        border-width:0px;
-        cursor:pointer;
-    }
+        font-weight:bolder;
+         background-color:rgb(248, 188, 58);
+         margin-left:30px;
+         width:380px;
+         height:46px;
+         border-width:0px;
+         border-radius:.9px;
+         cursor:pointer;
+         opacity: 0.9;
+         
+     }
+ 
+     .learner:hover{
+         font-weight:bolder;
+          background-color:rgb(236, 139, 29);
+          margin-left:30px;
+          width:380px;
+          height:46px;
+          border-width:0px;
+          cursor:pointer;
+          opacity:1.2;
+         transition: 2s
+      }
     
     .buildingIcon{
         display:flex;
@@ -229,7 +248,20 @@
         height:46px;
         border-width:0px;
         cursor:pointer;
+
     }
+
+    .started:hover{
+        font-weight:bolder;
+         background-color:rgb(236, 139, 29);
+         margin-left:30px;
+         width:380px;
+         height:46px;
+         border-width:0px;
+         cursor:pointer;
+         opacity:1.2;
+         transition: 2s
+     }
     
     .unlockHeading{
     display:flex;
@@ -256,6 +288,34 @@
         justify-content:center;
         width:100%;
     }
+
+    .bluePlay{
+        display:none;
+        justify-content:center;
+        align-items:center;
+        height:20vh;
+        margin-top:-700px;
+        margin-left:300px;
+        opacity:.5;
+    }
+    
+    .bluePlay:hover{
+        display:none;
+        justify-content:center;
+        height:21vh;
+        /* margin-top:-360px;
+        margin-left:295px; */
+        transition:2s;
+        opacity:1;
+    }
+    
+    .empty{
+        display:flex;
+        background-color:grey;
+        color:grey;
+        margin-bottom:260px;
+    }
+  
 
     .alumWork{
         display:flex;
@@ -291,6 +351,10 @@ height:60vh;
 width:60vh;
 }
 
+.empty{
+    display:none;
+}
+
 .donateBox{
 background-color:rgb(54, 101, 231);
 display:block;
@@ -314,35 +378,58 @@ padding-top:30px;
 }
 
 .doner{
-background-color:rgb(248, 188, 58);
-font-weight:bolder;
-border:none;
-height:40px;
-display:block;
-justify-content:center;
-margin:28px;
-}
+    background-color:rgb(248, 188, 58);
+    font-weight:bolder;
+    border:none;
+    height:40px;
+    display:block;
+    justify-content:center;
+    margin:28px;
+    opacity:0.9px;
+    }
+    
+    .doner:hover{
+        font-weight:bolder;
+         background-color:rgb(236, 139, 29);
+         margin-left:30px;
+         height:40px;
+         border-width:0px;
+         cursor:pointer;
+         margin:28px;
+         opacity:1.2;
+         transition: 2s
+     }
 
 
-.footOne{
-display:flex;
-/* margin-top:0px; */
-}
-
-.rights{
-font-size:12px;
-/* margin-bottom:5px; */
-height:10px;
-}
-
-.policies{
-    font-size:12px;
-    align-items:start;
-    margin-top:30px;
-    margin-left:20px;
-    /* padding-left:-40px; */
-    height:10px;
-}
+     .footOne{
+        display:flex;
+        height:40px;
+        /* margin-top:0px; */
+        }
+        
+        .rights{
+        font-size:12px;
+        /* margin-bottom:5px; */
+        height:10px;
+        }
+        
+        .policies{
+            display:flex;
+            justify-content:start;
+            font-size:12px;
+            align-items:start;
+            margin-top:30px;
+            margin-left:20px;
+            /* padding-left:-40px; */
+            height:10px;
+            /* flex-wrap:nowrap; */
+        }
+        
+        .underfoot{
+            display:flex;
+            justify-content:flex-start;
+            margin-left:-230px;
+        }
 
     .badges{
         margin-top:6px;
@@ -393,38 +480,89 @@ justify-content:flex-start;
     }
 
     .email{
-display:block;
-flex-wrap:nowrap;
-height:120px;
-border-bottom:none;
-    }
-
-    .emailTxt{
         display:block;
-        color:black;
-        font-size:15px;
         flex-wrap:nowrap;
-        margin-top:10px;
-        padding-top:10px;
+        height:150px;
+        border-bottom:none;
+            }
         
+            .emailTxt{
+                display:flex;
+                color:black;
+                font-size:15px;
+                flex-wrap:nowrap;
+                margin-top:10px;
+                padding-top:15px;
+                
+            }
+        
+            .emailUs{
+                display:flex;
+                color:rgb(80, 73, 73);
+                font-weight:lighter;
+                font-size:15px;
+            }
+        
+            .question{
+                display:flex;
+                color:black;
+                font-size:15px;
+                flex-wrap:nowrap;
+                margin-top:10px;
+                padding-top:10px;
+            }
+        
+            .ques{
+                display:flex;
+                color:rgb(80, 73, 73);
+                font-weight:lighter;
+                font-size:15px;
+            }
+
+    .lowSocials{
+        display:flex;
+        /* border:solid red; */
+       /* height:200px; */
+       /* margin-top:-100px;
+       padding-bottom:100px; */
     }
 
-    .emailUs{
-
+    .lowLogos{
+        margin-top:15px;
+        display:flex;
+        height:3vh;
+        padding:4px;
+        /* margin-bottom:100px; */
     }
 
-    .question{
-        display:block;
-        color:black;
-        font-size:15px;
-        flex-wrap:nowrap;
-        margin-top:10px;
-        padding-top:10px;
+    .signup{
+        display:flex;
+        height:160px;
     }
 
-    .ques{
-
+    .signHead{
+        height:30px;
+        font-size:24px;
     }
+
+    input[type=email] {
+        border: none;
+        border-bottom: 2px solid rgb(17, 9, 9);
+        width:40%;
+        background-color:rgb(248, 243, 243);
+        height:30px;
+        margin:5px;
+      }
+
+      input[type=button], input[type=submit], input[type=reset] {
+        background-color:rgb(248, 188, 58);
+        border: none;
+        color: rgb(8, 8, 8);
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
 
     }
 
@@ -448,6 +586,11 @@ border-bottom:none;
     width:100%;
     background-color:rgb(228, 231, 236);
     }
+
+    .navSwatch{
+        background-color:rgb(74, 133, 156);
+    }
+    
     
     .left{
     display:flex;
@@ -484,6 +627,7 @@ border-bottom:none;
     .menuItems{
         display:flex;
         justify-content:space-around;
+        align-items:center;
         font-size:9px;
         font-weight:bolder;
         letter-spacing:.1em;
@@ -494,6 +638,8 @@ border-bottom:none;
        margin-top:0px;
        margin-right:0px;
        position:relative;
+       color:rgb(71, 68, 92);
+       box-shadow:1.2px 1.4px 2px rgb(68, 68, 107);
     
     }
 
@@ -504,9 +650,56 @@ border-bottom:none;
         font-weight:bolder;
         letter-spacing:.1em;
         padding-right:12px;
-        color:blue;
+        color:rgb(94, 80, 56);
         cursor:pointer;
+        background-color:rgb(201, 202, 211);
+        /* color:rgb(170, 178, 196); */
+        box-shadow:3.6px 1.4px 2px rgb(135, 135, 209);
+        padding:9px;
+        
     }
+
+
+    .menuMaster{
+        display:flex;
+        justify-items:center;
+        align-items:center;
+        z-index:3;
+
+    }
+    .hoverMenuBreakout{
+        display:none;
+        /* display:flex; */
+        justify-content:space-evenly;
+        align-items:center;
+        margin-top:150px;
+        margin-left:-500px;
+        z-index:3;
+
+    }
+
+    .hoverMenuBreakout:hover{
+        display:flex;
+        justify-content:space-evenly;
+        align-items:center;
+        margin-top:150px;
+        margin-left:-500px;
+        z-index:3;
+    }
+
+    .breakout{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        /* border:solid red; */
+        height:100px;
+        width:200px;
+        /* padding-right:90px; */
+        margin-right:400px;
+        background-color:white;
+        z-index:3;
+    }
+
 
     /* .right{
     display:flex;
@@ -563,7 +756,7 @@ border-bottom:none;
     height:343px;
     width:440px;
     background-color:white;
-    /* z-index: 2; */
+    z-index: 2;
     
     }
     
@@ -573,7 +766,7 @@ border-bottom:none;
         /* border:solid red; */
     height:343px;
     width:440px;
-    /* z-index: 2; */
+    z-index: 2;
     background-color:white;
     }
     .capIcon{
@@ -619,7 +812,10 @@ border-bottom:none;
         width:380px;
         height:46px;
         border-width:0px;
+        border-radius:.9px;
         cursor:pointer;
+        opacity: 0.9;
+        transition: .8s;
     }
 
     .learner:hover{
@@ -630,6 +826,7 @@ border-bottom:none;
          height:46px;
          border-width:0px;
          cursor:pointer;
+         opacity:1.2;
      }
     
     .buildingIcon{
@@ -675,7 +872,10 @@ border-bottom:none;
         width:380px;
         height:46px;
         border-width:0px;
+        border-radius:.9px;
         cursor:pointer;
+        opacity: .9;
+        transition: .8s;
     }
 
     .started:hover{
@@ -686,6 +886,7 @@ border-bottom:none;
         height:46px;
         border-width:0px;
         cursor:pointer;
+        opacity:2;
     }
     
     .unlockHeading{
@@ -712,6 +913,32 @@ border-bottom:none;
         display:flex;
         justify-content:center;
         width:100%;
+    }
+
+    .bluePlay{
+        display:none;
+        justify-content:center;
+        height:20vh;
+        margin-top:-360px;
+        margin-left:300px;
+        opacity:.5;
+    }
+    
+    .bluePlay:hover{
+        display:flex;
+        justify-content:center;
+        height:21vh;
+        margin-top:-360px;
+        margin-left:295px;
+        transition:2s;
+        opacity:1;
+    }
+    
+    .empty{
+        display:none;
+        background-color:grey;
+        color:grey;
+        margin-bottom:260px;
     }
 
     .alumWork{
@@ -778,28 +1005,51 @@ height:40px;
 display:block;
 justify-content:center;
 margin:28px;
+opacity:0.9px;
+transition:.6s;
 }
 
+.doner:hover{
+    font-weight:bolder;
+     background-color:rgb(236, 139, 29);
+     margin-left:30px;
+     height:40px;
+     border-width:0px;
+     cursor:pointer;
+     margin:28px;
+     opacity:1.2;
+ }
 
-.footOne{
-display:flex;
-/* margin-top:0px; */
-}
 
-.rights{
-font-size:12px;
-/* margin-bottom:5px; */
-height:10px;
-}
-
-.policies{
+ .footOne{
+    display:flex;
+    height:40px;
+    /* margin-top:0px; */
+    }
+    
+    .rights{
     font-size:12px;
-    align-items:start;
-    margin-top:30px;
-    margin-left:20px;
-    /* padding-left:-40px; */
+    /* margin-bottom:5px; */
     height:10px;
-}
+    }
+    
+    .policies{
+        display:flex;
+        justify-content:start;
+        font-size:12px;
+        align-items:start;
+        margin-top:30px;
+        margin-left:20px;
+        /* padding-left:-40px; */
+        height:10px;
+        /* flex-wrap:nowrap; */
+    }
+    
+    .underfoot{
+        display:flex;
+        justify-content:flex-start;
+        margin-left:-230px;
+    }
 
     .badges{
         margin-top:6px;
@@ -850,38 +1100,73 @@ justify-content:flex-start;
     }
 
     .email{
-display:block;
-flex-wrap:nowrap;
-height:120px;
-border-bottom:none;
-    }
-
-    .emailTxt{
         display:block;
-        color:black;
-        font-size:15px;
         flex-wrap:nowrap;
-        margin-top:10px;
-        padding-top:10px;
+        height:150px;
+        border-bottom:none;
+            }
         
-    }
+            .emailTxt{
+                display:flex;
+                color:black;
+                font-size:15px;
+                flex-wrap:nowrap;
+                margin-top:10px;
+                padding-top:15px;
+                
+            }
+        
+            .emailUs{
+                display:flex;
+                color:rgb(80, 73, 73);
+                font-weight:lighter;
+                font-size:15px;
+            }
+        
+            .question{
+                display:flex;
+                color:black;
+                font-size:15px;
+                flex-wrap:nowrap;
+                margin-top:10px;
+                padding-top:10px;
+            }
+        
+            .ques{
+                display:flex;
+                color:rgb(80, 73, 73);
+                font-weight:lighter;
+                font-size:15px;
+            }
 
-    .emailUs{
-
-    }
-
-    .question{
-        display:block;
-        color:black;
-        font-size:15px;
-        flex-wrap:nowrap;
-        margin-top:10px;
-        padding-top:10px;
-    }
-
-    .ques{
-
-    }
+            .signup{
+                display:flex;
+                height:160px;
+            }
+        
+            .signHead{
+                height:30px;
+                font-size:24px;
+            }
+        
+            input[type=email] {
+                border: none;
+                border-bottom: 2px solid rgb(17, 9, 9);
+                width:40%;
+                background-color:rgb(248, 243, 243);
+                height:30px;
+                margin:5px;
+              }
+        
+              input[type=button], input[type=submit], input[type=reset] {
+                background-color:rgb(248, 188, 58);
+                border: none;
+                color: rgb(8, 8, 8);
+                padding: 16px 32px;
+                text-decoration: none;
+                margin: 4px 2px;
+                cursor: pointer;
+              }
 
 
     }
@@ -911,6 +1196,10 @@ border-bottom:none;
     width:100%;
     }
     
+    .navSwatch{
+        background-color:rgb(245, 214, 158);
+    }
+
     .left{
     display:flex;
     /* align-items:center; */
@@ -993,6 +1282,7 @@ border-bottom:none;
     height:20vh;
     margin-bottom:500px;
     margin-left:100px;
+    
     }
     
     .cardLeft{
@@ -1004,6 +1294,7 @@ border-bottom:none;
     width:440px; */
     background-color:white;
     /* z-index: 2; */
+    /* box-shadow: 5px 0px 2px 0px grey; */
     
     }
     
@@ -1016,7 +1307,7 @@ border-bottom:none;
     width:440px; */
     /* z-index: 2; */
     background-color:white;
-    margin-top:-80px;
+    margin-top:-30px;
     }
     .capIcon{
         display:flex;
@@ -1164,9 +1455,35 @@ display:flex;
     width:100%;
 }
 
+.bluePlay{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:20vh;
+    /* margin-top:-360px;
+    margin-left:300px; */
+    opacity:.5;
+}
+
+.bluePlay:hover{
+    display:flex;
+    justify-content:center;
+    height:21vh;
+    /* margin-top:-360px;
+    margin-left:295px; */
+    transition:2s;
+    opacity:1;
+}
+
+.empty{
+    display:flex;
+    background-color:grey;
+    color:grey;
+    margin-bottom:260px;
+}
 .compGirl{
 height:60vh;
-width:60vh;
+width:48vh;
 }
 
 .donateBox{
@@ -1204,6 +1521,7 @@ margin:28px;
 
 .footOne{
 display:flex;
+height:40px;
 /* margin-top:0px; */
 }
 
@@ -1214,16 +1532,24 @@ height:10px;
 }
 
 .policies{
+    display:flex;
+    justify-content:start;
     font-size:12px;
     align-items:start;
     margin-top:30px;
     margin-left:20px;
     /* padding-left:-40px; */
     height:10px;
+    /* flex-wrap:nowrap; */
 }
 
+.underfoot{
+    display:flex;
+    justify-content:flex-start;
+    margin-left:-230px;
+}
     .badges{
-        margin-top:6px;
+        margin-top:0px;
         padding-top:8px;
 display:flex;
 justify-content:flex-start;
@@ -1246,7 +1572,7 @@ justify-content:flex-start;
     }
 
     .lowLogo{
-        margin-top:20px;
+        margin-top:10px;
         height:3.4vh;
         padding:5px;
         margin-left:6px;
@@ -1273,26 +1599,29 @@ justify-content:flex-start;
     .email{
 display:block;
 flex-wrap:nowrap;
-height:120px;
+height:150px;
 border-bottom:none;
     }
 
     .emailTxt{
-        display:block;
+        display:flex;
         color:black;
         font-size:15px;
         flex-wrap:nowrap;
         margin-top:10px;
-        padding-top:10px;
+        padding-top:15px;
         
     }
 
     .emailUs{
-
+        display:flex;
+        color:rgb(80, 73, 73);
+        font-weight:lighter;
+        font-size:15px;
     }
 
     .question{
-        display:block;
+        display:flex;
         color:black;
         font-size:15px;
         flex-wrap:nowrap;
@@ -1301,10 +1630,62 @@ border-bottom:none;
     }
 
     .ques{
-
+        display:flex;
+        color:rgb(80, 73, 73);
+        font-weight:lighter;
+        font-size:15px;
     }
 
+    .lowSocials{
+        display:flex;
+        /* border:solid red; */
+       /* height:200px; */
+       /* margin-top:-100px;
+       padding-bottom:100px; */
     }
+
+    .lowLogos{
+        margin-top:15px;
+        display:flex;
+        height:3vh;
+        padding:4px;
+        /* margin-bottom:100px; */
+    }
+
+    .signup{
+        display:flex;
+        height:160px;
+    }
+
+    .signHead{
+        height:30px;
+        font-size:24px;
+    }
+
+    input[type=email] {
+        border: none;
+        border-bottom: 2px solid rgb(17, 9, 9);
+        width:40%;
+        background-color:rgb(248, 243, 243);
+        height:30px;
+        margin:5px;
+      }
+
+      input[type=button], input[type=submit], input[type=reset] {
+        background-color:rgb(248, 188, 58);
+        border: none;
+        color: rgb(8, 8, 8);
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+}
+
+
+
+
+    
 
 /* _____/mobile(START with MOBILE ALWAYS) */
 
